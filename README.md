@@ -165,4 +165,4 @@ python3 part_d.py
 
 2. **Semantic Embeddings for Policy RAG**: TF-IDF relies on exact lexical overlap and misses synonyms or paraphrases; replacing TF-IDF with dense sentence embeddings and sentence-boundary chunking will improve retrieval robustness.
 
-3. **Automated 7-Day Refund Window Check**: While all simulated refund requests occur within the 7-day policy window, production deployment should compare the support ticket timestamp against `order_ts` inside ``calculate_refund` to enforce the 7-day policy automatically.
+3. **Automated 7-Day Refund Window Check**: While all simulated refund requests occur within the 7-day policy window, production deployment should compare the support ticket timestamp against `order_ts` inside `calculate_refund` to enforce the 7-day policy automatically.
